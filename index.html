@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta -->
+        <title>Human in the Loop Experiment</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles -->
+        <link rel="stylesheet" href="style.css">
+        <!-- JS -->
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+   
+    <body onload="start()">  
+            
+        <div id="about" >
+
+                <p class="title">Experiment</p> 
+                </p>
+                Explain quickly the goal of the experiment;
+                
+                Explain the constraint to follow the experiment;
+                </p>
+                <p class="title">Duration</p>
+                <ul>
+                    <li>Experiment : ~20 min</li>
+                    <li>Questionnaire : ~2 min</li>
+                </ul> 
+
+                <div class="sliderWrapper" >
+                    <label class="switch">
+                        <input type="checkbox" >
+                        <span class="slider"  onclick="show('startButton')"> </span>
+                    </label>
+                    
+                    <div> &nbsp;&nbsp; I agree to the conditions of the experiment. </div>
+                </div>
+
+                <p id="startButton" style="display:none;"> <a type="button" class="custombutton" class="hide" href="video.html">Start!</a></p>
+                                    
+        </div>
+
+    </body>
+</html>
