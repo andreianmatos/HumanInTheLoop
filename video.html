@@ -11,8 +11,9 @@
         <script type="text/javascript" src="script.js"></script>
     </head>
 
-    <body onload="start()">  
+    <body onload="start(), notification()">  
         
+         <!-- OLD way
         <div id="videoWrapper">
 
             <iframe id="player" width="640" height="480" src="https://www.youtube.com/embed/Cgj7Wg1_Yc4" scrolling="no" frameborder="0" allowfullscreen="true"></iframe>  
@@ -26,7 +27,17 @@
 
            </div>
 
-        </div>           
+        </div> -->
 
+        <video controls autoplay>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>  
+
+        <div class="overlay">
+            <h2 id="txt" class="textNotif"></h2>
+        </div> 
+      
     </body>
 </html>
