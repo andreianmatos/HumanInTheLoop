@@ -17,7 +17,7 @@ body, html {
 .custombutton {
     padding: 10px;
     margin: 5px;
-    width: 55px;
+    width: 65px;
     text-align: center;
     color: red;
     
@@ -44,16 +44,8 @@ a:hover {
 }
 
 .overlay h2 {
-  background: rgb(104, 0, 0);
-  font-weight: 600;
-  margin: 2rem 3rem 0;
-  padding: 15px 20px;
-  text-align: center;
-  position:absolute;
-}
-
-.overlay h2 {
-  background:darkred;
+  opacity: .3;
+  background:gray;
   font-weight: 600;
   margin: 2rem 3rem 0;
   padding: 15px 20px;
@@ -73,7 +65,7 @@ a:hover {
 }
 
 .textNotif{
-  color: white;
+  color: black;
   display: none;
 }
 
