@@ -62,7 +62,9 @@ a:hover {
 }
 
 .overlay h3 {
-  background:whitesmoke;
+  border-style: solid;
+  border-color: whitesmoke;
+  background:black;
   font-weight: 600;
   margin: 2rem 3rem 0;
   padding: 15px 20px;
@@ -76,7 +78,7 @@ a:hover {
 }
 
 #donePopup{
-  color: black;
+  color: white;
   height:120px;
   width:250px ;
   text-align: center;
@@ -98,14 +100,6 @@ video {
      object-position: center;
 }
 
-.overlay h3 {
-  background: rgb(104, 0, 0);
-  font-weight: 600;
-  margin: 2rem 3rem 0;
-  padding: 5px 15px;
-  text-align: center;
-  position:absolute;
-}
 
 #videoWrapper{
     margin-top: 5%;
