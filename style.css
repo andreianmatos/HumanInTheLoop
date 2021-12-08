@@ -44,7 +44,7 @@ a:hover {
 }
 
 .overlay h2 {
-  opacity: .3;
+  opacity: .7;
   background:gray;
   font-weight: 600;
   margin: 2rem 3rem 0;
@@ -65,7 +65,8 @@ a:hover {
 }
 
 .textNotif{
-  color: black;
+  opacity: 1;
+  color: white;
   display: none;
 }
 
