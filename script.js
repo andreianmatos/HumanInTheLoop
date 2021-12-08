@@ -32,7 +32,7 @@ function notification(){
   setTimeout(() => {  x.style.display = "none";}, 785000);
 
   // pop up after video is over, put size of video in miliseconds
-  setTimeout(() => { popup.style.display = "block"; popup.innerHTML = '<p>The video is over!</p><a type="button" class="custombutton" href="endPage.html">NEXT</a>';}, 933600 );
+  setTimeout(() => { popup.style.display = "block"; popup.innerHTML = '<p>The video is over!</p><a type="button" class="custombutton" href="endPage.html">NEXT</a>';}, 939600 );
   
 }
 
