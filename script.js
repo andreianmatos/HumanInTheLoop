@@ -24,13 +24,13 @@ function notification(){
   var soundType;
 
   if(localStorage.getItem("groupType") == 'A'){
-    setTimeout(() => {  x.style.display = "block"; x.innerHTML = "<b>Alice</b>: Hello There …";}, 120000);
+    setTimeout(() => {  x.style.display = "block"; x.innerHTML = "<b>Emma</b>: Hello There …";}, 120000);
     setTimeout(() => {  x.style.display = "none";}, 125000);
-    setTimeout(() => {  x.style.display = "block"; x.innerHTML = "<b>Bob</b>: It’s 18h56…" }, 480000);
+    setTimeout(() => {  x.style.display = "block"; x.innerHTML = "<b>Sam</b>: It’s 18h56…" }, 480000);
     setTimeout(() => {  x.style.display = "none";}, 485000);
-    setTimeout(() => {  x.style.display = "block"; x.innerHTML = "<b>Charlie</b>: Orange is great …"},  660000);
+    setTimeout(() => {  x.style.display = "block"; x.innerHTML = "<b>Maggie</b>: Orange is great …"},  660000);
     setTimeout(() => {  x.style.display = "none";},  665000);
-    setTimeout(() => {  x.style.display = "block"; x.innerHTML = "<b>Danny</b>: Meet Wednesday ?"}, 780000);
+    setTimeout(() => {  x.style.display = "block"; x.innerHTML = "<b>Mark</b>: Meet Wednesday ?"}, 780000);
     setTimeout(() => {  x.style.display = "none";}, 785000);  
   }
 
