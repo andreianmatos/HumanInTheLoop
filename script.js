@@ -54,7 +54,7 @@ function notification(){
   }
 
   // pop up after video is over, put size of video in miliseconds
-  setTimeout(() => { popup.style.display = "block"; popup.innerHTML = '<p>The video is over!</p><a type="button" class="custombutton" href="endPage.html">NEXT</a>';}, 939600 );
+  setTimeout(() => { popup.style.display = "block"; popup.innerHTML = '<p>The video is over!</p><a type="button" class="custombutton" href="endPage.html">NEXT</a>';}, 940000);
 }
 
 function groupSetting(group) {
