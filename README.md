@@ -1,5 +1,6 @@
+# Human in the Loop, Masters Year 2 Semester 1
+# Université Grenoble Alps
+
 # andreianmatos.github.io/HumanInTheLoop/
 
-# Human in the Loop
-
-Research project done at Université Grenoble Alps in the subject Human In The Loop, on video notifications, using AB-Testing and Usability Questionnaires.
+Research project done on video notifications, using AB-Testing and Usability Questionnaires.
